@@ -1,0 +1,12 @@
+[package]
+name = "silo-core"
+version = "0.1.0"
+edition = "2021"
+description = "Core math silo for the SuperInstance ternary fleet. Pure Z₃ computation separated from the Pincher reflex runtime."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/SuperInstance/silo-core"
+keywords = ["ternary", "silo", "pincher", "z3", "math"]
+categories = ["mathematics", "science"]
+
+[dependencies]
+ternary-types = { git = "https://github.com/SuperInstance/ternary-types.git", features = ["std"] }
